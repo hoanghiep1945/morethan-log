@@ -9,38 +9,31 @@ const CONFIG = {
   },
   // profile setting (required)
   profile: {
-    name: "hoafnganh",
-    image: "/avatar-1.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    name: "hoanghiep",
+    image: "/notion-avatar-1768832825176.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "cyber security learner",
     bio: "Post and Telecommunications Institute of Technology.",
-    email: "dhoanganh25705@gmail.com",
-    linkedin: "anh-duong-hoang-176294380/",
-    github: "hoafnganh",
-    instagram: "hoang.anh.2507/",
+    email: "hieplbh.ptit@gmail.com",
+    github: "https://github.com/hoanghiep1945",
   },
   projects: [
     {
-      name: `hoafnganh`,
-      href: "https://github.com/hoafnganh",
+      name: `hoanghiep`,
+      href: "https://github.com/hoanghiep1945",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "hoafnganh",
+    title: "hoanghiep",
     description: "welcome to my blog!",
     scheme: "dark", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
-  link: "https://hoafnganh.vercel.app",
-  since: 2025, // If leave this empty, current year will be used.
+  link: "https://morethan-log-bay-theta.vercel.app",
+  since: 2026, // If leave this empty, current year will be used.
   lang: "vi-VN", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
-
-  // notion configuration (required)
-  notionConfig: {
-    pageId: "2570eda9f07e806aa44ce87761f3a9e5",
-  },
 
   // plugin configuration (optional)
   googleAnalytics: {
